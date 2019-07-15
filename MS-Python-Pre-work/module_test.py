@@ -44,4 +44,13 @@ print(start)
 year=2019
 age = int(input("Enter your age :"))#Takes  the age input
 print("You were born in :",round(year-age))#Displays the year of birth
-print("You will be 80years by :",round((80-age)+year ))#Displays the year you will turn 80years
+print("You will be 80years by :",round((80-age)+year ))#Displays the year you will turn
+
+
+###################################Tip Calculator################################
+start = 'Tip Calculator'
+#A code to Find the tip on billing and total
+print(start)
+tip = 0.15 #Tip is 15% of total charge
+bill = float(input("Enter your total bill charges:"))#Takes the bill charges
+print("The total charge is :",round((bill*0.15)+ bill))#Finds total charges plus the tip
