@@ -66,3 +66,17 @@ list_a.append("e")
 
 print(list_a) # ["a","b","c","d","e"]
 #Add e to the final array while not affecting the original array
+
+#################################Sorted order##################################
+
+ist_a = [1,3,4,8,5,7,6,2]
+list_a.sort()
+
+print(list_a) # [1, 2, 3, 4, 5, 6, 7, 8]
+#Prints in sorted order
+###############################Reverse Order###################################
+list_a = ["a","b","c","d"]
+list_a.reverse()
+
+print(list_a) # ['d', 'c', 'b', 'a']
+#Prints in reverse
