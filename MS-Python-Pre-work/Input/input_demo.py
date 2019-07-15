@@ -44,3 +44,25 @@ for i in range(1,21):#range defines it from 1 to 21
     if i in numTaken:#Condition confirmation
         continue
     print(i)#Directive to print the numbers
+
+########################## Using  extend()method ############################
+
+list_a = ["a","e","i","o","u"]
+list_b = [1,2,3,4,5,6,7,8,9,10]
+
+# Joining list_b to list_a
+
+list_a.extend(list_b)
+print(list_a) # this will print ["a","b","c","d",1,2,3,4,5,6]
+print(list_b) # this will print [1,2,3,4,5,6]
+#This adds new values to list_a. Notice that list_b remains unchanged.
+
+#############################Using Append ######################################
+list_a = ["a","b","c","d"]
+
+print(list_a)  # ["a","b","c","d"]
+
+list_a.append("e")
+
+print(list_a) # ["a","b","c","d","e"]
+#Add e to the final array while not affecting the original array
