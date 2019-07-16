@@ -1,5 +1,5 @@
 
-for x in range(100):
+for x in range(101):
 
     if x % 15 == 0:
         print("FizzBuzz")
